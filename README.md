@@ -1,6 +1,6 @@
-Initial Load Client for Harley Davidson
+Load Client for Harley Davidson
 ==============
-SOAP client for the [HarleyDavidsonService](https://github.com/attiq/harley_davidson_service)
+SOAP client for the [Harley Davidson](https://github.com/attiq/harley_davidson_service)
 
 Uses the [Savon](http://savonrb.com) SOAP client library
 
@@ -8,7 +8,7 @@ If you have any issues, suggestions, improvements, etc. then please log them usi
 
 Usage
 -----
-Clone the [HarleyDavidsonService](https://github.com/attiq/harley_davidson_service) Git repository and get it up and running
+Clone the [Harley Davidson](https://github.com/attiq/harley_davidson_service) Git repository and get it up and running
 
 Clone this Git repository
 
