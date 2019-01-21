@@ -9,7 +9,7 @@ If you have any issues, suggestions, improvements, etc. then please log them usi
 ## Requirements
 
 * [ruby](https://www.ruby-lang.org/en/documentation/installation/) 
-
+* [bundler](https://github.com/bundler/bundler) 
 
 Usage
 -----
