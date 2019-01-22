@@ -38,12 +38,12 @@ class Load
       end
 
       # # Store the response from LeasePak API in log file
-      CSV.open("log/responses_#{Time.now}.csv", "wb") do |csv|
+      CSV.open("log/responses_#{Time.now.strftime("%m_%d_%Y")}_at_#{Time.now.strftime("%I:%M%p")}.csv", "wb") do |csv|
         csv << ["No", "Name", "Response"]
         infos.each {|info| csv << info}
       end unless infos.empty?
 
-      CSV.open("log/errors_#{Time.now}.csv", "wb") do |csv|
+      CSV.open("log/errors_#{Time.now.strftime("%m_%d_%Y")}_at_#{Time.now.strftime("%I:%M%p")}.csv", "wb") do |csv|
         csv << ["No", "Name", "Error"]
         errors.each {|error| csv << error}
       end unless errors.empty?
